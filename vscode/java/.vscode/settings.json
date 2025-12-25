@@ -1,0 +1,14 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic",
+
+  "editor.inlayHints.enabled": "off",
+
+  "files.exclude": {
+    "**/.terraform": true,
+    "**/.terraform.lock.hcl": true,
+    "**/terraform.tfstate": true,
+    "**/terraform.tfstate.backup": true,
+    "**/target": true
+  }
+}

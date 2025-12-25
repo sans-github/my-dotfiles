@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/.venv": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/pyvenv.cfg": true,
+        "**/.terraform": true,
+        "**/.terraform.lock.hcl": true,
+        "**/terraform.tfstate": true,
+        "**/terraform.tfstate.backup": true
+    },
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedVariable": "none",
+        "reportUnusedImport": "none",
+        "reportUndefinedVariable": "none"
+    }
+}
