@@ -10,13 +10,13 @@
         "**/terraform.tfstate.backup": true
     },
     "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
     "[python]": {
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "python.analysis.diagnosticSeverityOverrides": {
         "reportUnusedVariable": "none",
-        "reportUnusedImport": "none",
-        "reportUndefinedVariable": "none"
+        "reportUnusedImport": "none"
     }
 }
