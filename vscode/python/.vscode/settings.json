@@ -4,6 +4,8 @@
         "**/__pycache__": true,
         "**/.pytest_cache": true,
         "**/pyvenv.cfg": true,
+        "**/*.egg-info": true,
+        "**/.ruff_cache": true,
         "**/.terraform": true,
         "**/.terraform.lock.hcl": true,
         "**/terraform.tfstate": true,

@@ -5,9 +5,35 @@ build/
 dist/
 wheels/
 *.egg-info
+eggs/
+.eggs/
 
 # Virtual environments
 .venv
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+temp/%                                                                                                                                      
 
 # Terraform
 **/terraform.tfstate
