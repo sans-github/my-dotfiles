@@ -1,0 +1,29 @@
+steps:
+  - name: Check out code
+    uses: actions/checkout@v4
+
+  - name: Set up JDK
+    uses: actions/setup-java@v4
+    with:
+      java-version: '17'
+      distribution: 'temurin'
+      cache: 'maven'
+
+  - name: Run Checkstyle
+    id: checkstyle
+    continue-on-error: true
+    run: mvn checkstyle:check
+
+  - name: Run SpotBugs
+    id: spotbugs
+    continue-on-error: true
+    run: mvn spotbugs:check
+
+  - name: Run PMD
+    id: pmd
+    continue-on-error: true
+    run: mvn pmd:check
+
+  - name: Check if any linter failed(to get all errors)
+    if: steps.checkstyle.outcome == 'failure' || steps.spotbugs.outcome == 'failure' || steps.pmd.outcome == 'failure'
+    run: exit 1
