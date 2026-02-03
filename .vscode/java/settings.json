@@ -9,6 +9,6 @@
     "**/.terraform.lock.hcl": true,
     "**/terraform.tfstate": true,
     "**/terraform.tfstate.backup": true,
-    "**/target": true
+    "target": true
   }
 }
