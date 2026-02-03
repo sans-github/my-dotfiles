@@ -1,7 +1,9 @@
 {
     "files.exclude": {
+        "**/dist": true,
         "**/.venv": true,
         "**/__pycache__": true,
+        "**/.mypy_cache/": true,
         "**/.pytest_cache": true,
         "**/pyvenv.cfg": true,
         "**/*.egg-info": true,
