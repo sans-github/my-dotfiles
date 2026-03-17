@@ -14,6 +14,7 @@
       "Bash(tail:*)",
       "Bash(test:*)",
       "Bash(touch:*)",
+      "Edit(*)",
       "WebFetch(domain:docs.anthropic.com)",
       "WebFetch(domain:github.com)"
     ]
