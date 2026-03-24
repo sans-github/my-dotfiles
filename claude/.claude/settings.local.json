@@ -11,7 +11,7 @@
       "Bash(mkdir:*)",
       "Bash(mv:*)",
       "Bash(open:*)",
-      "Bash(pbcopy:*)"
+      "Bash(pbcopy:*)",
       "Bash(python3:*)",
       "Bash(sed:*)",
       "Bash(tail:*)",
