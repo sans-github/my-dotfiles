@@ -1,4 +1,10 @@
 {
+    "ruff.nativeServer": "on",
+    "ruff.configuration": {
+      "format": {
+        "indent-width": 2
+      }
+    },
     "files.exclude": {
         "**/dist": true,
         "**/.venv": true,
