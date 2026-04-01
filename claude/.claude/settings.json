@@ -3,6 +3,7 @@
     "allow": [
       "Bash(awk:*)",
       "Bash(cat:*)",
+      "Bash(chmod +x:*)",
       "Bash(cp:*)",
       "Bash(curl:*)",
       "Bash(echo:*)",
@@ -20,9 +21,9 @@
       "Bash(uv run:*)",
       "Edit(.claude/**)",
       "Read(.claude/**)",
-      "Write(.claude/**)",
       "WebFetch(domain:docs.anthropic.com)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Write(.claude/**)"
     ]
   }
 }
