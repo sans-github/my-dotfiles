@@ -23,6 +23,7 @@
       "Read(.claude/**)",
       "WebFetch(domain:docs.anthropic.com)",
       "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:skills.sh)",
       "Write(.claude/**)"
     ]
