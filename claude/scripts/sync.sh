@@ -10,7 +10,7 @@ echo "Syncing agents from $REPO@$REF..."
 
 git clone --depth=1 --branch "$REF" "$REPO" "$TMP" -q
 
-for item in agents rules skills template GETTING-STARTED.md tech-custom-config.md; do
+for item in agents rules skills template GETTING-STARTED.md tech-config.md; do
   src="$TMP/.claude/$item"
   dst="$ROOT/.claude/$item"
   if [ -e "$src" ]; then
