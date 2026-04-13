@@ -29,5 +29,10 @@ else
   echo "  WARN: README.md not found in upstream, skipping"
 fi
 
+if [ ! -f "$ROOT/BACKLOG.md" ] && [ -f "$TMP/BACKLOG.md" ]; then
+  cp "$TMP/BACKLOG.md" "$ROOT/BACKLOG.md"
+  echo "  BACKLOG.md -> BACKLOG.md (scaffolded)"
+fi
+
 rm -rf "$TMP"
 echo "Done."
