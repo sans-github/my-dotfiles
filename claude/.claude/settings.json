@@ -19,6 +19,7 @@
       "Bash(test:*)",
       "Bash(touch:*)",
       "Bash(uv run:*)",
+      "Bash(bash .claude/skills/feature-init/feature-init.sh)",
       "Edit(.claude/**)",
       "Read(.claude/**)",
       "WebFetch(domain:docs.anthropic.com)",
