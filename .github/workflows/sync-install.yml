@@ -1,0 +1,24 @@
+name: Sync install.sh from agents
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch install.sh from agents repo
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/sans-github/agents/main/install.sh \
+            -o claude/scripts/install.sh
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "No changes" && exit 0
+          git add claude/scripts/install.sh
+          git commit -m "chore: sync install.sh from agents"
+          git push
