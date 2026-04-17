@@ -3,7 +3,7 @@ set -euo pipefail
 
 REPO="https://github.com/sans-github/agents"
 REF="${1:-main}"
-ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TMP=$(mktemp -d)
 
 echo "Syncing agents from $REPO@$REF..."
