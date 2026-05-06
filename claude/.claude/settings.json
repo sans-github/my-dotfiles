@@ -1,9 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(.claude/skills/feature-init/feature-init.sh:*)",
-      "Bash(.claude/skills/feature-init/feature-init-dry-run.sh:*)",
       "Bash(awk:*)",
+      "Bash(bash .claude/skills/**/*.sh)",
       "Bash(cat:*)",
       "Bash(chmod +x:*)",
       "Bash(cp:*)",
@@ -22,18 +21,15 @@
       "Bash(test:*)",
       "Bash(touch:*)",
       "Bash(uv run:*)",
-      "Bash(bash .claude/skills/feature-init/feature-init.sh)",
-      "Bash(bash .claude/skills/feature-init/feature-init.sh *)",
-      "Bash(bash .claude/skills/**/*.sh)",
       "Edit(.claude/**)",
+      "Edit(projects/**)",
       "Read(.claude/**)",
+      "Read(projects/**)",
       "WebFetch(domain:docs.anthropic.com)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:skills.sh)",
       "Write(.claude/**)",
-      "Edit(projects/**)",
-      "Read(projects/**)",
       "Write(projects/**)"
     ]
   }
