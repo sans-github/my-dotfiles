@@ -3,6 +3,7 @@
     "allow": [
       "Bash(awk:*)",
       "Bash(bash .claude/skills/**/*.sh)",
+      "Bash(bash .claude/skills/**/*.sh *)",
       "Bash(cat:*)",
       "Bash(chmod +x:*)",
       "Bash(cp:*)",
