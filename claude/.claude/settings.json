@@ -6,6 +6,7 @@
       "Bash(bash .claude/skills/**/*.sh *)",
       "Bash(cat:*)",
       "Bash(chmod +x:*)",
+      "Bash(command -v pandoc)",
       "Bash(cp:*)",
       "Bash(curl:*)",
       "Bash(echo:*)",
