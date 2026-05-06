@@ -1,6 +1,8 @@
 {
   "permissions": {
     "allow": [
+      "Bash(.claude/skills/feature-init/feature-init.sh:*)",
+      "Bash(.claude/skills/feature-init/feature-init-dry-run.sh:*)",
       "Bash(awk:*)",
       "Bash(cat:*)",
       "Bash(chmod +x:*)",
