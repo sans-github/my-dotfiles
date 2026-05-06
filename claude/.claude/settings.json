@@ -16,6 +16,7 @@
       "Bash(mv:*)",
       "Bash(open:*)",
       "Bash(pbcopy:*)",
+      "Bash(pbpaste:*)",
       "Bash(python3:*)",
       "Bash(sed:*)",
       "Bash(tail:*)",
