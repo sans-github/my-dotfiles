@@ -15,6 +15,9 @@ eggs/
 logs/
 *.log
 
+# Claude local settings
+.claude/settings.local.json
+
 # Environment variables
 .env
 .env.local
