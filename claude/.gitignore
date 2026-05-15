@@ -18,6 +18,9 @@ logs/
 # Claude local settings
 .claude/settings.local.json
 
+# Claude local CLAUDE.md
+.claude.local.md
+
 # Environment variables
 .env
 .env.local
