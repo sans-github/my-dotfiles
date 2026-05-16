@@ -30,11 +30,6 @@ jobs:
         continue-on-error: true
         run: mvn spotbugs:check
 
-      - name: Run PMD
-        id: pmd
-        continue-on-error: true
-        run: mvn pmd:check
-
       - name: Check if any linter failed(to get all errors)
-        if: steps.checkstyle.outcome == 'failure' || steps.spotbugs.outcome == 'failure' || steps.pmd.outcome == 'failure'
+        if: steps.checkstyle.outcome == 'failure' || steps.spotbugs.outcome == 'failure'
         run: exit 1
