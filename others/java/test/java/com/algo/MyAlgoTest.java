@@ -3,7 +3,7 @@ package com.algo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class AppTest {
+public class MyAlgoTest {
 
   MyAlgo app = new MyAlgo();
   @Test
