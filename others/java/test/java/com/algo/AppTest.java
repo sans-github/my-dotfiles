@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class AppTest {
 
-  App app = new App();
+  MyAlgo app = new MyAlgo();
   @Test
   public void testDoubleIt() {
     System.out.println("Testing double");
