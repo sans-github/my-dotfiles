@@ -17,7 +17,8 @@
         "**/.terraform": true,
         "**/.terraform.lock.hcl": true,
         "**/terraform.tfstate": true,
-        "**/terraform.tfstate.backup": true
+        "**/terraform.tfstate.backup": true, 
+        "**/uv.lock": true
     },
     "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "basic",
