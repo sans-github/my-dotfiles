@@ -33,9 +33,7 @@
       "WebFetch(domain:docs.anthropic.com)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:skills.sh)",
-      "Write(.claude/**)",
-      "Write(projects/**)"
+      "WebFetch(domain:skills.sh)"
     ]
   }
 }
