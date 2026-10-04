@@ -35,5 +35,9 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:skills.sh)"
     ]
+  }, 
+  "attribution": {
+    "commit": "",
+    "pr": ""
   }
 }
