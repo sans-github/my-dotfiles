@@ -19,7 +19,7 @@ logs/
 .claude/settings.local.json
 
 # Claude local CLAUDE.md
-.claude.local.md
+CLAUDE.local.md
 
 # Environment variables
 .env
